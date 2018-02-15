@@ -502,7 +502,7 @@ ul#nav li.current a { color: #0ABAB5; }
    background: #fff;
    overflow: hidden;
    position: relative;
-
+   transform:;
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -512,6 +512,9 @@ ul#nav li.current a { color: #0ABAB5; }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+}
+.portfolio-item .item-wrap:hover {
+  transform: scale(1.03);
 }
 
 /* overlay */
@@ -608,6 +611,7 @@ ul#nav li.current a { color: #0ABAB5; }
    letter-spacing: 2px;
    display: block;
    text-align: left;
+   font-weight: bold;
 }
 .popup-modal .description-box .categories i {
    margin-right: 8px;
