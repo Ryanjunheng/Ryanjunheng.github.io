@@ -206,7 +206,8 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic { margin-left: 0; }
+   #about .three { margin-bottom: 3em; }
    #about .download .button {
       width: 100%;
       text-align: center;
