@@ -8,11 +8,22 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background1.jpg) no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+}
+
+header .bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-height: 500px;
+  background: #161415 url(../images/header-background1.jpg) no-repeat center center;
+  width: 100%;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  z-index: -1;
+  opacity: 0.4;
 }
 
 /* vertically center banner section */
