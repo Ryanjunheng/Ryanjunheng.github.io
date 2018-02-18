@@ -693,11 +693,11 @@ input[type="checkbox"] { display: inline; }
 
 h1, h2, h3, .smoothscroll, .social {
    -webkit-animation-duration: 2s;
-   -webkit-animation-delay: 1s;
+   -webkit-animation-delay: 1.5s;
    -webkit-animation-iteration-count: 1;
 
    -moz-animation-duration: 2s;
-   -moz-animation-delay: 1s;
+   -moz-animation-delay: 1.5s;
    -moz-animation-iteration-count: 1;
 }
 
