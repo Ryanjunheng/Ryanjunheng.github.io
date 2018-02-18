@@ -175,6 +175,7 @@ ul#nav li.current a { color: #0ABAB5; }
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
+   height: 100vh;
 }
 
 #about a, #about a:visited  { color: #fff; }
