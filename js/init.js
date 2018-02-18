@@ -4,10 +4,7 @@
 /*
 -----------------------------------------------------------------------------------*/
 
-$(window).load(function() {
-    // Animate loader off screen
-    $(".se-pre-con").fadeOut("fast");;
-  });
+
 
  jQuery(document).ready(function($) {
 
@@ -16,6 +13,11 @@ $(window).load(function() {
 /*----------------------------------------------------*/
 /* FitText Settings
 ------------------------------------------------------ */
+
+    $(window).load(function() {
+    // Animate loader off screen
+      $(".se-pre-con").fadeOut("fast");;
+    });
 
     setTimeout(function() {
 	   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
