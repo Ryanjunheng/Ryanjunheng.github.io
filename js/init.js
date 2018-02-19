@@ -25,7 +25,7 @@
 
     $('h1').addClass('animated fadeInDown');
     $('h3').addClass('animated fadeInDown');
-    $('.smoothscroll').addClass('animated fadeInDown');
+    $('#nav li').addClass('animated fadeInDown');
     $('.social').addClass('animated fadeInDown');
 
 
